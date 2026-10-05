@@ -26,4 +26,4 @@ jobs:
       run: |
         python manage.py migrate
         python manage.py collectstatic --noinput
-        python manage.py exShop
+        python manage.py test
